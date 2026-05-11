@@ -5,21 +5,21 @@ class Pif < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/toerob/pif/releases/download/v0.1.0/pif-aarch64-apple-darwin.tar.xz"
-      sha256 "dfdd51b464ce1b21cdec0514afb265065190925ce67fbfbd9c32415538cf9c9b"
+      sha256 "0cb39c558cfb7c3e11374806428cb5a4981009175fd04beae7acc2c5fa345ca9"
     end
     if Hardware::CPU.intel?
       url "https://github.com/toerob/pif/releases/download/v0.1.0/pif-x86_64-apple-darwin.tar.xz"
-      sha256 "2033c0ad65fb2b8d529da7a05783e10757e4a6c2d1e43aa66b007a7ecafc5e11"
+      sha256 "3fb2d15f3aac1451d06248a6e92b7a51444989d5e62ecc1c44c7b74bade67b36"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/toerob/pif/releases/download/v0.1.0/pif-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cce832e9647ddeaa40561468eb4059f20a9ced9002fb140e198433e1f29d2bb6"
+      sha256 "1ef4b1cb0496af13a75dc826482a6b7e4d413709bf8a4d25990e28895ab641fb"
     end
     if Hardware::CPU.intel?
       url "https://github.com/toerob/pif/releases/download/v0.1.0/pif-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3aa98c2ca912d4339e33a709029bff470d7b1260a3e0e61cbbea8490ff1d3053"
+      sha256 "27fb92f52fdaccd02a48b05f0b49d885340f0ae078423793489a6e3d0a3be1a0"
     end
   end
   license "MIT"

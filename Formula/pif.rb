@@ -1,25 +1,25 @@
 class Pif < Formula
   desc "PIF - A CLI package manager for interactive fiction languages"
   homepage "https://github.com/toerob/pif"
-  version "0.1.1"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/toerob/pif/releases/download/v0.1.1/pif-aarch64-apple-darwin.tar.xz"
-      sha256 "cc5191ba435ee8c2c4af396736c0b5e9e62ad7e1f7a34b5ee3800e19eb514de2"
+      url "https://github.com/toerob/pif/releases/download/v0.2.1/pif-aarch64-apple-darwin.tar.xz"
+      sha256 "c8fe375ed10dcb81f67e278d72f0e8751954f95d135934c8e84ef37406786e13"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/toerob/pif/releases/download/v0.1.1/pif-x86_64-apple-darwin.tar.xz"
-      sha256 "3ae8ce67595af4651d6069056beeb7861ef2ea6034e34b65999fb233b8b64395"
+      url "https://github.com/toerob/pif/releases/download/v0.2.1/pif-x86_64-apple-darwin.tar.xz"
+      sha256 "93a5b1cccd7ae7216b6810bf7be57f20ddb44d1a05398b21bb39f953f50c186f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/toerob/pif/releases/download/v0.1.1/pif-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b434405fada9b858f214d0e0433a29404179c36f0be2a8e0d92d15099dddfda1"
+      url "https://github.com/toerob/pif/releases/download/v0.2.1/pif-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c5a2379118f15283df1159c8a29ab7117ce752dd6af120bdb533d9526cc05a3d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/toerob/pif/releases/download/v0.1.1/pif-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "36e6f53cfa20d732c748012080f17b10f5f409a2cdf90bc88ce6d54de61b4a51"
+      url "https://github.com/toerob/pif/releases/download/v0.2.1/pif-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "065beae95744b37b434d4c68ba9287acbe873f5e2854f0663e6052a12b4e8892"
     end
   end
   license "MIT"
